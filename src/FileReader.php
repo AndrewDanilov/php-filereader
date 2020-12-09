@@ -38,7 +38,7 @@ class FileReader
 	public static function getLastLine($filePath, $exceptLineFirstChar='\n')
 	{
 		$lastWord = null;
-		$f = static::fopen_utf($filePath, 'r');
+		$f = static::fopen($filePath);
 		if ($f) {
 			// ищем с конца к началу
 			if (fseek($f, -1, SEEK_END) == 0) { // в конец файла -1 символ перевода строки
