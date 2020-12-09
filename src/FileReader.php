@@ -1,5 +1,5 @@
 <?php
-namespace classes;
+namespace andrewdanilov\filereader;
 
 class FileReader
 {
