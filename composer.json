@@ -1,0 +1,21 @@
+{
+    "name": "andrewdanilov/php-filereader",
+    "description": "FileReader helper",
+    "type": "library",
+    "keywords": ["php","extension","file","reader"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AndrewDanilov",
+            "email": "andrewdanilov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "andrewdanilov\\filereader\\": "src/"
+        }
+    }
+}
