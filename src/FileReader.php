@@ -14,7 +14,7 @@ class FileReader
 	 * @param string $mode
 	 * @return false|resource
 	 */
-	private static function fopen($filename, $mode='r')
+	public static function fopen($filename, $mode='r')
 	{
 		$handle = fopen($filename, $mode);
 		$bom = fread($handle, 2);
